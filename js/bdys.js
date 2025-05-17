@@ -2,15 +2,15 @@ const cheerio = createCheerio()
 const CryptoJS = createCryptoJS()
 const UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/604.1.14 (KHTML, like Gecko)'
 const headers = {
-  'Referer': 'https://v.xlys.ltd.ua/',
-  'Origin': 'https://v.xlys.ltd.ua',
+  'Referer': 'https://xl01.com.de/',
+  'Origin': 'https://xl01.com.de',
   'User-Agent': UA,
 }
 
 const appConfig = {
   ver: 1,
   title: "哔滴影视",
-  site: "https://v.xlys.ltd.ua",
+  site: "https://xl01.com.de",
   tabs: [{
     name: '最新电影',
     ext: {
